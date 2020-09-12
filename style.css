@@ -1,0 +1,253 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-image: url(/Users/mj/Desktop/WebDevelopment/Productlandingpage/images/bgg.jpg);
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-size: 1600px;
+	background-color:black;
+	
+}
+.navbar {
+	position: fixed;
+	top:0;
+	width: 100%;
+	z-index: 1;
+	border-bottom: 2px solid #ffde22;
+}
+
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: #B1984A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover{
+	background-color: #B1984A;
+	color:white;
+	border-bottom:3px solid black;
+
+}
+
+
+.heading{
+	position: relative;
+	top:150px;
+	text-align: center;
+	margin: 20px;
+}
+#email{
+	min-width: 300px;
+	padding:15px 0px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+::placeholder{
+	text-align: center;
+	opacity: 80%;
+}
+.heading h1{
+	margin-bottom: 20px;
+	color:#B1984A;
+}
+.heading form{
+	margin-bottom: 10px;
+
+}
+
+.heading button{
+	margin-top: 10px;
+	padding :10px;
+	width: 300px;
+	background-color: white;
+	color:#B1984A;
+	border-radius: 30px;
+}
+
+button:hover{
+	background-color: #B1984A;
+	color:white;
+	cursor: pointer;
+
+}
+.container{
+	width: 100%;
+}
+
+
+img{
+	width: 200px;
+	height: 200px;
+}
+
+.flex{
+	display: flex;
+	position: relative;
+	top:160px;
+}
+
+#features .flex1{
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	width: 20vw;
+	margin-left: 20px;
+	align-items: flex-end;
+	
+}
+#features .flex2{
+	display: flex;
+	flex-direction: column;
+	height: 125px;
+	width: 80vw;
+	margin-left:400px;
+	align-items: flex-start;
+	max-width: 800px;
+	position: relative;
+	bottom:30px;
+
+}
+
+#features .flex2 h1{
+	color: #B1984A;
+}
+#features .flex2 p{
+	overflow: hidden;
+	width: 600px;
+	background-repeat: no-repeat;
+}
+
+.video{
+	position: relative;
+	top:300px;
+	border:2px dashed white;
+	margin:auto;
+	width:750px; 
+	height:400px;
+
+}
+
+
+
+.grid{
+	position: relative;
+	top:300px;
+	margin:auto;
+	width: 80%;
+}
+
+@media(max-width: 800px) {
+	#item{
+		display: grid;
+		flex-direction: column;
+		margin:auto;
+		text-align: center;
+	}
+}
+
+#item{
+	display: flex;
+	flex-direction: row;
+	margin:auto;
+	text-align: center;
+
+}
+#item h3{
+	color:#B1984A;
+}
+#item li{
+	list-style-type: none;
+	padding: 2px;
+	text-align: center;
+	color:white;
+}
+
+ #b1{
+ 	margin-top: 32px;
+ 	padding: 10px;
+	width: 300px;
+}
+ #b2{
+ 	margin-top: 32px;
+ 	padding: 10px;
+	width: 300px;
+}
+ #b3{
+ 	margin-top: 10px;
+ 	padding: 10px;
+	width: 300px;
+}
+
+ .canonpic{
+ 	background-color: black;
+ 	color: #B1984A;
+ 	text-align: center;
+ 	position: relative;
+ 	top:400px;
+ 	width: 380px;
+ 	margin:auto;
+ }
+.parallax1{
+	position: relative;
+	top:400px;
+	height: 800px;
+	background-image: url(/Users/mj/Desktop/WebDevelopment/Productlandingpage/images/1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax2{
+	position: relative;
+	top:400px;
+	height: 800px;
+	background-image: url(/Users/mj/Desktop/WebDevelopment/Productlandingpage/images/2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3{
+	position: relative;
+	top:400px;
+	height: 800px;
+	background-image: url(/Users/mj/Desktop/WebDevelopment/Productlandingpage/images/3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer{
+	position: relative;
+	top:450;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.footer li{
+	list-style-type: none;
+	display: block;
+	padding:20px;
+	background-color: white;
+	margin-top: 30px
+}
